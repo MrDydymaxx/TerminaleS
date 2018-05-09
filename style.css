@@ -1,0 +1,99 @@
+.background {
+  margin:0;
+  padding:0;
+  background: url(fond-site.jpg) no-repeat center center fixed; 
+  background-size: cover; 
+}
+.flecheg {
+	position:fixed;
+	top:0px;
+	width:70px;
+	height:70px;
+}
+.fleched {
+	right:0px;
+	top:0px;
+	position:fixed;
+	width:70px;
+	height:70px;
+}
+.titre1 {
+	box-shadow: 2px 2px 0px red;
+	text-align:center;
+}
+.titre2 {
+	text-align:center
+}
+.matiere {
+	display:block;
+	margin:auto;
+}
+
+.chapitre a {
+	display:block;
+	width:150px;
+	line-height:50px;
+	margin:auto;
+	text-align:center;
+	vertical-align:middle;
+	background:url(boutonnoir.png) no-repeat;
+	color:white;
+	text-decoration:none;
+}
+
+.text-base{
+   opacity:1;
+}
+
+.text-hover{
+   display:none;
+}
+
+.chapitre a:hover span.text-base {
+	opacity:0;
+	background:url(boutonnoir2.png) no-repeat;
+}
+
+.chapitre a:hover span.text-hover {
+	display:inherit;
+	background:url(boutonnoir2.png) no-repeat;
+}
+
+.PC {
+	display:block;
+	border: 2px solid black;
+	text-align:center;
+	width: 200px;
+	height: 200px;
+	position:absolute;
+	top: 300px;
+	left: 300px;
+	color: silver;
+}	
+
+.PC a  span.text-hover {
+	display:block;
+	border: 2px solid red;
+	text-align:center;
+	width: 200px;
+	height: 200px;
+	position:absolute;
+	top: 300px;
+	left: 300px;
+	color: grey;
+}	
+
+.PC2 {
+	display:block;
+	border: 2px solid black;
+	text-align:center;
+	width: 200px;
+	height: 200px;
+	position:absolute;
+	top: 300px;
+	right: 300px; 
+}	
+
+.line  {
+	
+}
