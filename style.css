@@ -1,4 +1,7 @@
+@charset "utf-8";
+
 .background {
+  font-family:calibri;
   margin:0;
   padding:0;
   background: url(fond-site.jpg) no-repeat center center fixed; 
@@ -72,3 +75,10 @@
 	background:url(boutonnoir2.png) no-repeat;
 }
 
+.core {
+	font-family:calibri;
+	display:block;
+	margin-left:20%;
+	margin-right:20%;
+	font-size: 1.3em;
+}
